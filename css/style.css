@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Futura";
+    src: url('../assets/fonts/futura-condensed-extra-bold.woff2') format('woff2'),
+         url('../assets/fonts/futura-condensed-extra-bold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: #232d2d;
+    width: 96rem; 
+    margin: 0 auto; 
+}
+input {
+    display: block;
+    background-color: #232d2d;
+}
+.form {
+    display: flex; 
+    flex-flow: row; 
+    justify-content: space-around;
+    margin-top: 5rem; 
+}
+.title__link {
+    text-decoration: none;
+}
+
+.file__submit {
+    background-color: #09E5C3; 
+    padding: 1rem; 
+    text-transform: uppercase;
+    font-size: 2rem; 
+    font-family: "Futura";
+}
+
+.container {
+    display: flex; 
+    flex-flow: column; 
+    justify-content: space-between; 
+}
+.title {
+    font-family: "Futura"; 
+    text-transform: uppercase;
+    font-size: 13rem; 
+    color: white; 
+    text-align: center; 
+    background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.5rem transparent;
+    color: black; 
+}
+.canvas {
+    display: flex; 
+    justify-content: center;
+}
+.link {
+    text-decoration: none;
+    font-family: "Futura";
+    text-transform: uppercase; 
+    font-size: 5rem; 
+    display: flex; 
+    justify-content: center;
+
+    background: -webkit-linear-gradient(-91deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+    background-clip: padding-box; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.introduction__paragraph {
+    font-family: "Futura";
+    font-size: 3rem; 
+    color: black;
+}
+.intro--first {
+    text-shadow: #EEF85B 0.1rem 0 3rem;
+}
+.intro--first span {
+    color:#EEF85B; 
+}
+.intro--second {
+    text-shadow: #7AEC8D 0.1rem 0 3rem;
+}
+.intro--second span {
+    color: #7AEC8D;
+}
+.intro--third {
+    text-shadow: #09E5C3 0.1rem 0 3rem; 
+}
+.intro--third span {
+    color: #09E5C3; 
+}
+.form__label {
+    font-family: "Futura"; 
+    font-size: 2rem; 
+    margin-bottom: 2rem; 
+
+    background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+    background-clip: padding-box; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.link {
+    position: relative; 
+    top: 5rem; 
+    margin-bottom: 5rem; 
+
+    text-decoration: none;
+    font-family: "Futura";
+    text-transform: uppercase; 
+    font-size: 5rem; 
+    display: flex; 
+    justify-content: center;
+
+    background: -webkit-linear-gradient(-91deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+    background-clip: padding-box; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.link span {
+    padding-right: 2rem; 
+    padding-left: 2rem;
+}
+
+

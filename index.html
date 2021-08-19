@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoke Memories</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="header">
+            <h1 class="title">Evoke Memories</h1>
+            <div class="introduction">
+                <p class="introduction__paragraph intro--first">Do you ever wanna go back to that one moment, when you were feeling so <span>fortunate, delighted or happy</span>?</p>
+                <p class="introduction__paragraph intro--second">Seek a picture of this memory and a song that reminds you of this. Go back and experience the <span>nostalgia</span>.</p>
+                <p class="introduction__paragraph intro--third">Relive this <span>moment of pure joy</span> and share it with the ones that were there with you.</p>
+            </div>
+            
+        </div>
+        
+        <div class="form">
+            <form class="form__input" action="imageUploadScript.php" method="post" enctype="multipart/form-data">
+                <label class="form__label"> Choose an image</label>
+                <input class="file__input" type="file" name="imageFile" id="imageFile">
+
+                <input class="file__submit" type="submit" name="submit" value="Upload">
+            </form>
+        
+            <form class="form__input" action="songUploadScript.php" method="post" enctype="multipart/form-data">
+                <label class="form__label"> Choose a song</label>
+                <input class="file__input" type="file" name="songFile" id="songFile">
+        
+                <input class="file__submit" type="submit" name="submit" value="Upload">
+            </form>
+        </div>
+        
+        <div class="link">
+            <a class="link" href="memories.html"><span>&#10095;</span> Retrieve your memory <span>&#10094;</span></a>
+        </div>
+
+    </section> 
+</body>
+
+</html>
